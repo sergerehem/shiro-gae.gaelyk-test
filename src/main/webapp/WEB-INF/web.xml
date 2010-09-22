@@ -99,6 +99,8 @@
         securityManager.cacheManager = $cacheManager
         datastoreRealm = com.deluan.shiro.gae.realm.DatastoreRealm
 
+        authc.loginUrl=/login.gtpl
+
         [urls]
         /datetime.groovy = authc
 
