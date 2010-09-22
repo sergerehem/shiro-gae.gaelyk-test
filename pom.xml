@@ -38,9 +38,24 @@
 			<version>${groovy.version}</version>
 		</dependency>
         <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>1.0.0-incubating</version>
+        </dependency>
+        <dependency>
             <groupId>com.deluan.shiro-gae</groupId>
             <artifactId>shiro-gae</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.5.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.5.6</version>
         </dependency>
 	</dependencies>
 
