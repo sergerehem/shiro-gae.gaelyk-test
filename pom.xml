@@ -106,7 +106,15 @@
 			<name>maven-gaelyk repository</name>
 			<url>http://maven-gaelyk.googlecode.com/svn/repository</url>
 		</repository>
-	</repositories>
+        <repository>
+            <id>googlecode.shiro-gae.repo</id>
+            <url>dav:https://shiro-gae.googlecode.com/svn/repository</url>
+        </repository>
+        <repository>
+            <id>googlecode.shiro-gae.snapshotrepo</id>
+            <url>dav:https://shiro-gae.googlecode.com/svn/snapshot-repository</url>
+        </repository>
+    </repositories>
 	<pluginRepositories>		
 		<pluginRepository>
 			<id>maven-gae-plugin-repo</id>
