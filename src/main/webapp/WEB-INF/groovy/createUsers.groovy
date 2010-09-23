@@ -13,7 +13,9 @@ def saveUser(username, password) {
 }
 
 
-saveUser("user1", "pass1")
 saveUser("admin", "admin")
+saveUser("user1", "pass1")
 
-println "Created Users"
+println "Created Users:<br/><br/>"
+println "admin / admin<br/>"
+println "user1 / pass1<br/>"
