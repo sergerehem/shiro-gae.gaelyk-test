@@ -8,6 +8,10 @@
 </form>
 <br/>
 <br/>
+  <p>Use:</p>
+  <p>admin/admin or user1/pass1</p>
+<br/>
+<br/>
 <br/>
 <a href="createUsers.groovy">Create some users</a>, if you haven't done it yet
 

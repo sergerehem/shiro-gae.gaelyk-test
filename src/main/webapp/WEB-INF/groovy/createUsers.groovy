@@ -15,8 +15,6 @@ def saveUser(username, password) {
 
 def hasUsers() {
     def query = new Query(DatastoreRealm.DEFAULT_USER_STORE_KIND)
-
-
     def result = datastore.prepare(query).countEntities() > 0
 }
 
